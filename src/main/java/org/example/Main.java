@@ -5,9 +5,5 @@ public class Main {
         Engine newGame = new Engine();
         newGame.runGame();
 
-
-        Card newCard = new Card(Card.Suit.HEART, Card.Rank.ACE);
-        System.out.println(newCard);
-
     }
 }
